@@ -1,0 +1,75 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículos - TechBlog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">TechBlog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobre-mi.html">Sobre Mí</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="articulos.html">Artículos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tecnologia.html">Tecnología</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ciberseguridad.html">Ciberseguridad</a></li>
+                        <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                        <li class="nav-item"><a class="nav-link" href="recensiones.html">Reseñas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="recursos.html">Recursos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <h2 class="mb-4">Todos los Artículos</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 interactive-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Maquetación con Flexbox</h5>
+                        <p class="card-text">Guía práctica para alinear elementos fácilmente usando CSS Flexbox.</p>
+                        <button class="btn btn-primary btn-sm view-details-btn" data-title="Flexbox" data-info="Aprende sobre flex-direction, justify-content y align-items.">Ver detalles</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 interactive-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Manipulación del DOM con JS</h5>
+                        <p class="card-text">Aprende a modificar el contenido dinámicamente usando JavaScript.</p>
+                        <button class="btn btn-primary btn-sm view-details-btn" data-title="DOM en JS" data-info="Uso de querySelector, addEventListener y modificación de estilos en JS.">Ver detalles</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 interactive-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Uso de Bootstrap 5</h5>
+                        <p class="card-text">Crea interfaces web modernas y responsivas sin escribir CSS desde cero.</p>
+                        <button class="btn btn-primary btn-sm view-details-btn" data-title="Bootstrap 5" data-info="Sistemas de rejilla, componentes prediseñados y clases utilitarias.">Ver detalles</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container"><p class="mb-0">&copy; 2026 TechBlog. Todos los derechos reservados.</p></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
